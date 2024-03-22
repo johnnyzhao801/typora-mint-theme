@@ -8,6 +8,7 @@
 	--table-head-color:#d9ede5;
 	--deep-theme-color: #4eb289;
 	--code-block-bg-color: #0F111A;
+    --monospace: "Comic Mono";
 }
 
 /*serif*/
@@ -65,8 +66,8 @@ body {
 }
 
 #write {
-	max-width: 900px;
-  padding: 30px 50px 20px;
+    max-width: 2000px;
+    padding: 30px 50px 20px;
 }
 
 #write p{
@@ -335,8 +336,8 @@ hr {
   margin: 0.2em 0;
   padding: 0.5em;
   border-radius: 3px;
-	font-size: 0.9em;
-  font-family: 'SourceCodePro',Consolas,Courier,'NotoSansSC';
+  font-size: 0.9em;
+  font-family: 'Comic Mono', 'Monaco','SourceCodePro',Consolas,Courier,'NotoSansSC';
   background-color: var(--code-block-bg-color);
   color: #A9B7C6;
   border: none;
