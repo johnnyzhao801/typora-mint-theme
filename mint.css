@@ -1,13 +1,13 @@
 :root {
     --side-bar-bg-color: #d9ede5;
-	--control-text-color: #6B6B6B;
-	--active-file-bg-color: #ecf6f2;
-	--active-file-border-color: #6B6B6B;
-	--active-file-text-color: #202020;
-	--table-even-row-color:#f8fcfa;
-	--table-head-color:#d9ede5;
-	--deep-theme-color: #4eb289;
-	--code-block-bg-color: #0F111A;
+    --control-text-color: #6B6B6B;
+    --active-file-bg-color: #ecf6f2;
+    --active-file-border-color: #6B6B6B;
+    --active-file-text-color: #202020;
+    --table-even-row-color:#f8fcfa;
+    --table-head-color:#d9ede5;
+    --deep-theme-color: #4eb289;
+    --code-block-bg-color: #0F111A;
     --monospace: "Comic Mono";
 }
 
@@ -40,14 +40,14 @@
 
 /*Chinese*/
 @font-face {
-  font-family: 'Comic Mono', 'Monaco','NotoSansSC';
+  font-family: 'NotoSansSC';
   font-weight: normal;
   font-style: normal;
   src: url('./mint/NotoSansSC-Regular.otf')
 }
 
 @font-face {
-  font-family: 'Comic Mono', 'Monaco','NotoSansSC';
+  font-family: 'NotoSansSC';
   font-weight: bold;
   font-style: normal;
   src: url('./mint/NotoSansSC-Bold.otf')
@@ -58,7 +58,7 @@ html{
 }
 
 body {
-  font-family: 'Comic Mono','Monaco','Lexend','Helvetica','SourceCodePro','NotoSansSC';
+  font-family: 'Lexend','Helvetica','SourceCodePro','NotoSansSC';
 	font-weight: normal;
 	line-height: 1.5rem;
 	letter-spacing: 0;
