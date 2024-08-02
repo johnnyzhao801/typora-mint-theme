@@ -13,7 +13,7 @@
 
 /*serif*/
 @font-face {
-  font-family: 'Lexend';
+  font-family: 'Comic Mono','Monaco','Lexend';
   font-weight: normal;
   font-style: normal;
   src: url('./mint/Lexend-Regular.ttf'),
@@ -22,7 +22,7 @@
 }
 
 @font-face {
-  font-family: 'Lexend';
+  font-family: 'Comic Mono','Monaco','Lexend';
   font-weight: bold;
   font-style: normal;
   src: url('./mint/Lexend-Bold.ttf'),
@@ -32,7 +32,7 @@
 
 /*monospace*/
 @font-face {
-  font-family: 'SourceCodePro';
+  font-family: 'Comic Mono', 'Monaco','SourceCodePro';
   font-weight: normal;
   font-style: normal;
   src: local(SourceCodePro), url('./mint/SourceCodePro-Regular.ttf')
@@ -40,14 +40,14 @@
 
 /*Chinese*/
 @font-face {
-  font-family: 'NotoSansSC';
+  font-family: 'Comic Mono', 'Monaco','NotoSansSC';
   font-weight: normal;
   font-style: normal;
   src: url('./mint/NotoSansSC-Regular.otf')
 }
 
 @font-face {
-  font-family: 'NotoSansSC';
+  font-family: 'Comic Mono', 'Monaco','NotoSansSC';
   font-weight: bold;
   font-style: normal;
   src: url('./mint/NotoSansSC-Bold.otf')
@@ -58,7 +58,7 @@ html{
 }
 
 body {
-  font-family: 'Lexend','Helvetica','SourceCodePro','NotoSansSC';
+  font-family: 'Comic Mono','Monaco','Lexend','Helvetica','SourceCodePro','NotoSansSC';
 	font-weight: normal;
 	line-height: 1.5rem;
 	letter-spacing: 0;
